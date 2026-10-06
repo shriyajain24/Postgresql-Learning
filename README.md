@@ -1,54 +1,17 @@
 # PostgreSQL Learning
 
-This repository is a simple PostgreSQL practice workspace for learning SQL basics, database creation, table creation, inserts, queries, and cleanup operations.
+This is a simple PostgreSQL practice repository.
 
-## Contents
+## Files
 
-- `prac.sql` — Sample SQL script demonstrating:
-  - Creating a database
-  - Creating a table
-  - Inserting records
-  - Querying data
-  - Dropping a table
+- `prac.sql` - SQL examples for creating a database, table, inserting data, querying, and deleting a table.
 
-## Example workflow
+## How to use
 
-1. Open PostgreSQL.
-2. Run the SQL script using `psql`:
+Open PostgreSQL and run the SQL file:
 
 ```bash
 psql -U postgres -d postgres -f prac.sql
 ```
 
-3. Or paste commands manually into the PostgreSQL shell.
-
-## SQL covered
-
-The script includes:
-
-```sql
-CREATE DATABASE std;
-
-CREATE TABLE student (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE
-);
-
-INSERT INTO student(id, name, email) VALUES
-(1, 'John Doe', 'john.doe@example.com');
-
-SELECT * FROM student;
-
-DROP TABLE IF EXISTS student;
-```
-
-## Notes
-
-- This is a beginner-friendly learning repository.
-- Use it to practice PostgreSQL fundamentals and SQL syntax.
-- You can keep adding more `.sql` files as your learning progresses.
-
-## License
-
-This project is for educational purposes.
+This repository is for basic learning and practicing SQL commands.
