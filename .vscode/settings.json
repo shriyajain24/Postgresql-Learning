@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "Localhost XAMPP",
+            "driver": "MySQL",
+            "server": "localhost",
+            "port": 3306,
+            "database": "mysql",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "pglocal",
+            "username": "postgres",
+            "database": "postgres",
+            "password": "shri2411",
+            "connectionTimeout": 30
+        }
+    ]
+}
