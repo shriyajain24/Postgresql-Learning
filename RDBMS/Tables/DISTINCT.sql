@@ -1,0 +1,1 @@
+-- DISTINCT : To display unique values from a table by using the DISTINCT keyword.

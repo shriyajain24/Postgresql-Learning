@@ -1,3 +1,6 @@
+-- WHERE Clause : To filter records from a table by using the WHERE clause.
+-- clause table mein se un rows ko select karta hai jo given condition satisfy karti hain.
+
 SELECT * FROM std
 WHERE course = 'MCA';
 
