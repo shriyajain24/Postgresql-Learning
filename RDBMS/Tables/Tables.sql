@@ -36,3 +36,9 @@ Select std_id,name
 From std;
 
 
+--@block
+INSERT INTO std(std_id,name,course,age) VALUES
+(1,'Siya','BCA',20),
+(2,'Prachi','BTech',23),
+(3,'Diya','MBA',24);
+
