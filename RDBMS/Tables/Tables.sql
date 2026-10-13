@@ -38,8 +38,11 @@ From std;
 
 -- Add new data to the table :
 --@block
-INSERT INTO std(std_id,name,course,age) VALUES
-(1,'Siya','BCA',20),
-(2,'Prachi','BTech',23),
-(3,'Diya','MBA',24);
+INSERT INTO std(std_id,name,course,age,email) VALUES
+(4,'Siya','BCA',20,'siya@example.com'),
+(5,'Prachi','BTech',23,'prachi@example.com'),
+(6,'Diya','MBA',24,'diya@example.com');
+
+--@block
+SELECT * FROM std;
 
