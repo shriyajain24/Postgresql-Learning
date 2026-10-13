@@ -36,6 +36,7 @@ Select std_id,name
 From std;
 
 
+-- Add new data to the table :
 --@block
 INSERT INTO std(std_id,name,course,age) VALUES
 (1,'Siya','BCA',20),
