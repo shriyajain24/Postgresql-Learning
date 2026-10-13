@@ -18,6 +18,12 @@ WHERE name LIKE '%i%';
 
 
 --@block
--- Names starting with 'P' and ending with 'I'
+-- Names starting with 'P' and ending with 'i'
 SELECT * FROM std
-WHERE name LIKE 'P%I';
+WHERE name LIKE 'P%i';
+
+
+--@block
+-- Names with exactly 4 characters
+SELECT * FROM std
+WHERE name LIKE '____';
